@@ -1,0 +1,24 @@
+let a;
+a=Math.PI;
+console.log(a);
+
+let s;
+a=Math.E;
+console.log(a);
+
+let u;
+a=Math.round(5.4);
+console.log(a);
+
+let p;
+a=Math.ceil(7.8);
+console.log(a);
+
+let o;
+a=Math.sqrt(9);
+console.log(a);
+
+let k;
+a=Math.pow(4,4);
+console.log(a);
+

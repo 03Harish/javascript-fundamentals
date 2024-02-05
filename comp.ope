@@ -1,0 +1,11 @@
+let a=10;
+let b=25;
+console.log(a==b);
+
+let c=10;
+let d=25;
+console.log(a===b);
+
+let e=10;
+let f=25;
+console.log(a!=b);

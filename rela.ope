@@ -1,0 +1,15 @@
+let a=10;
+let b=20;
+console.log("Greater: ",a>b);
+
+let c=10;
+let d=20;
+console.log("Lesser: ",c<d);
+
+let e=10;
+let f=20;
+console.log("Greater Than Equal: ",a>=b);
+
+let g=10;
+let h=20;
+console.log("Lesser Than Equal:",a<=b);

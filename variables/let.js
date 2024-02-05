@@ -1,1 +1,5 @@
-console.log('let')
+if(true)
+{
+    let msg="harish";
+}
+console.log(msg);
