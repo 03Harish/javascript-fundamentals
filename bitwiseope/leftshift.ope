@@ -1,0 +1,9 @@
+a=4;
+b=3;
+console.log(a<<b);
+
+//ass liftshift
+a=4;
+b=3;
+a<<=b;
+console.log(a);
