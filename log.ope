@@ -1,3 +1,9 @@
-let a=50;
-console.log(mark>=35 && mark<=100);
 
+
+
+let c=5;
+console.log(c==2 || c==3);//or
+
+c=false;
+console.log(!c);
+//not

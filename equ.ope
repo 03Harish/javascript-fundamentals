@@ -1,0 +1,7 @@
+let a=10;
+let b=20;
+console.log(a==b);// a and b are not have same value.so,its false
+
+let c=10;
+let d=20;
+console.log(c===d);

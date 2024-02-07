@@ -1,0 +1,10 @@
+let a=12;
+let b=24;
+console.log(a|b);
+
+
+//ass or
+let c=12;
+let d=24;
+c|=b;
+console.log(c|d);
