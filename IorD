@@ -1,0 +1,18 @@
+let a=5;
+a++;
+console.log(a);
+
+
+let b=6;
+++b;
+console.log(b);
+
+let c=8;
+const d=c++;
+console.log(c,d);//postfix
+
+let e=7;
+const f=--e;
+console.log(e,f);//prefix
+
+

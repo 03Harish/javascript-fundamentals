@@ -1,0 +1,15 @@
+const a=null??'no value';
+console.log(a);
+
+
+
+const b=null??47;
+console.log(b);
+
+
+
+const user={'name':'harish'};
+console.log(user);
+console.log(user.name);
+user.city??='selam';
+console.log(user);
