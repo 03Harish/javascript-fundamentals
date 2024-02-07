@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let a=12;
 let b=24;
 console.log(a|b);
@@ -7,4 +8,15 @@ console.log(a|b);
 let c=12;
 let d=24;
 c|=b;
+=======
+let a=12;
+let b=24;
+console.log(a|b);
+
+
+//ass or
+let c=12;
+let d=24;
+c|=b;
+>>>>>>> 55ac99296234cbc613ace686ea1aa7a4a6a4ae5d
 console.log(c|d);

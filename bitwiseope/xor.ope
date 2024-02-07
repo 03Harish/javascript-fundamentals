@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 a=2;
 b=4;
+=======
+a=2;
+b=4;
+>>>>>>> 55ac99296234cbc613ace686ea1aa7a4a6a4ae5d
 console.log(a^b);

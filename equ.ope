@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 let a=10;
 let b=20;
 console.log(a==b);// a and b are not have same value.so,its false
 
 let c=10;
 let d=20;
+=======
+let a=10;
+let b=20;
+console.log(a==b);// a and b are not have same value.so,its false
+
+let c=10;
+let d=20;
+>>>>>>> 55ac99296234cbc613ace686ea1aa7a4a6a4ae5d
 console.log(c===d);

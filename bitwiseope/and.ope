@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 const a=2;
 const b=8;
+=======
+const a=2;
+const b=8;
+>>>>>>> 55ac99296234cbc613ace686ea1aa7a4a6a4ae5d
 console.log(a&b);
