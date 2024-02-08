@@ -1,0 +1,5 @@
+let names=["hari","sam","ram","sasi","jam","kit"];
+for (let name of names)
+{
+    console.log(name);
+}

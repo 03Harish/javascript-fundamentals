@@ -1,0 +1,16 @@
+let user={name:'harish',
+age:20,
+city:'chennai',
+contect:9080706060};
+
+
+let arr_keys=Object.keys(user);
+console.table(arr_keys);
+
+
+let arr_values=Object.values(user);
+console.table(arr_values);
+
+for(let i=0;i<arr_keys.length;i++){
+    console.table(arr_keys[i]+" : "+arr_values[i]);
+}

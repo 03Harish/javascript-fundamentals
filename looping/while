@@ -1,0 +1,9 @@
+let i=1;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+
+
+let name=["hari","sam","ram","sasi","jam","kit"];
+console.log(name[4]);

@@ -1,0 +1,5 @@
+let user={name:"harish",age:20,city:"chennai",contect:9080706060};
+for(let prop in user)
+{
+    console.log(prop+" : "+user[prop]);
+}
