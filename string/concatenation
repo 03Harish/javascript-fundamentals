@@ -1,0 +1,6 @@
+let first_name="Harish";
+let last_name="Lakshmanan";
+let c=first_name+' '+last_name;
+console.log(c);
+
+//joining of two strings is concatenation

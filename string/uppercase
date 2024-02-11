@@ -1,0 +1,4 @@
+let first_name="Harish";
+let last_name="Lakshmanan";
+a=first_name.toUpperCase();
+console.log(a);

@@ -1,0 +1,4 @@
+//   \ escaping
+a='she can\'t run';//or a="she can't run";
+
+console.log(a);

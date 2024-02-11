@@ -1,0 +1,16 @@
+ let groups =[
+    ["ram","sam","ravi"],
+    ["kumar","tiya","som"],
+    ["rajesh","sara","rahul"],
+ ];
+ for(let group of groups)
+ {
+    inner://it take first name from each group name start's with r
+    for(let member of group)
+    {
+        if (member.startsWith('r')){
+            console.log("found:",member);
+            break inner;
+        }
+    }
+ }

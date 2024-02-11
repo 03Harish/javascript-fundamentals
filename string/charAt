@@ -1,0 +1,4 @@
+let first_name="Harish";
+let last_name="Lakshmanan";
+g=last_name.charAt(5);
+console.log(g);

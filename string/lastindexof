@@ -1,0 +1,4 @@
+let first_name="Harish";
+let last_name="Lakshmanan";
+g=first_name.lastIndexOf('h');
+console.log(g)

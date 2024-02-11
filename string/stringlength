@@ -1,0 +1,4 @@
+let first_name="Harish";
+let last_name="Lakshmanan";
+c=first_name.length;
+console.log("length : "+c);

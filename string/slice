@@ -1,0 +1,9 @@
+let text="0123456789"
+c=text.slice(6,5);
+console.log(c);//op is 23
+
+c=text.slice(4,2);//it will also empty set
+console.log(c);
+
+c=text.slice(42,52);//which are not in the text it wii print empty set
+console.log(c);

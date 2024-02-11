@@ -1,0 +1,4 @@
+
+c="Harish"
+c+=" Lakshmanan"
+console.log("Append: "+c);

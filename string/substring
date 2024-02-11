@@ -1,0 +1,12 @@
+let text="0123456789"
+c=text.substring(0,4)//print the values 0 to 4th place value
+console.log(c);
+
+c=text.substring(4);//hear it w'll take the values after the 4
+console.log(c);
+
+c=text.substring(4,0);//hear automatically consider lower to higher value
+console.log(c);
+ 
+c=text.substring(30,39);//we are give wrong value which are not in the text it wii print empty set
+console.log(c);

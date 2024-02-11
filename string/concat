@@ -1,0 +1,5 @@
+//concat is inbuilt function
+let first_name="harish";
+let last_name="Lakshmanan";
+let c=first_name.concat(' ',last_name);
+console.log(c);
