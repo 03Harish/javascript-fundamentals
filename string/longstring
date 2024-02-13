@@ -1,0 +1,4 @@
+let longString="I enjoy learning about new industries and markets and identifying untapped opportunities for growth"+
+ "Business development aligns with my personal values of building strong relationships and adding value to the company"+
+ " I also see this role as a great opportunity to build key skills, such as communication, negotiation, and business acumen";
+console.log(longString);

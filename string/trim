@@ -1,0 +1,4 @@
+s=" harish ";
+console.log(s.length);
+s=s.trim();
+console.log(s.length);

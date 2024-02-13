@@ -1,0 +1,3 @@
+let a="I am from mannai";
+c=a.replace('mannai','chennai');
+console.log(c);

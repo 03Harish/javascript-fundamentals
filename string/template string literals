@@ -1,0 +1,7 @@
+let full_name="Harish";
+let age="20";
+let city="chennai";
+let role="student";
+let output="";
+output="<table border='1'><tr><th>Name</th><td>"+full_name+"</td></tr></table>";
+document.body.innerHTML=output;

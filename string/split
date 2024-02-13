@@ -1,0 +1,4 @@
+let a="everything is possible in love and war";
+c=a.split(" ");
+console.log(c);
+console.table(c);
