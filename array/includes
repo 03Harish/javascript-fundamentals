@@ -1,0 +1,7 @@
+const product=["pen","pencil","eraser","box"];
+result=product.includes("pen");
+console.log(result);
+result=product.includes("scale");
+console.log(result);
+result=product.includes("pen",2);
+console.log(result);

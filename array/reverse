@@ -1,0 +1,9 @@
+const n=[1,2,3,4,5,6];
+
+console.log(n.reverse());
+
+//array element with length ppty
+const x={
+    0:10,1:20,2:30,3:40,length:4
+};Array.prototype.reverse.call(x);
+console.log(x);

@@ -1,0 +1,5 @@
+const user=['ram','sam','tim','tom'];
+console.log(user.pop());
+console.log(user);
+console.log(user.pop());
+console.log(user);

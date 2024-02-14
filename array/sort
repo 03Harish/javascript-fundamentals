@@ -1,0 +1,28 @@
+const names=["kumar","ram","sam","tom","hari"];
+names.sort();
+console.log(names);
+
+let num=[2,34,54,11,14,32,21];
+num.sort();
+console.log(num);
+
+
+num=[2,34,54,11,14,32,21];
+num.sort((a,b)=>{
+    return a-b;
+});
+console.log(num);
+
+
+
+
+const users=[
+    {full_name:"vijay",age:20,city:"chennai",salary:10000},
+    {full_name:"ram",age:26,city:"madurai",salary:20000},
+    {full_name:"kavin",age:25,city:"nellai",salary:30000},
+    {full_name:"sam",age:23,city:"selam",salary:15000},
+    {full_name:"sasi",age:29,city:"karur",salary:17000},
+];
+users.sort((a,b)=>{
+    return a.age-b.age;
+});console.table(users);

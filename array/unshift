@@ -1,0 +1,9 @@
+let students=['kumar','tim','tom','sam','ram','jim'];
+let len=students.unshift("riya");
+console.log(students);
+
+
+//multiple values
+students=['kumar','tim','tom','sam','ram','jim'];
+len=students.unshift("riya","tiya");
+console.log(students);

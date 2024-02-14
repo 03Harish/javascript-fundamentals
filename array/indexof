@@ -1,0 +1,6 @@
+let students=['kumar','tim','tom','sam','ram','jim'];
+console.log(students.indexOf("tom"));
+
+
+a="qwertyuio";
+console.log(a.indexOf("y"));

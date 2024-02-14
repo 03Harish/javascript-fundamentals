@@ -1,0 +1,5 @@
+let n=[1,2,3,4,5,6];
+//n.fill(34);//value
+//n.fill(34,2);//start
+n.fill(34,3,5);//end
+console.log(n);

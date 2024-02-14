@@ -1,0 +1,3 @@
+let students=['kumar','tim','tom','sam','ram','jim'];
+console.log(students.shift());
+console.log(students);
