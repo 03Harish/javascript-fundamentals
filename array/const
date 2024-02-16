@@ -1,0 +1,5 @@
+const user=["ram","sam","ravi"];
+user.push("harish");
+console.log(user);
+/*hear we cannot change user,can 
+only push the element*/

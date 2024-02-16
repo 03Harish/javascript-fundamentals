@@ -1,0 +1,18 @@
+  //object
+  let user={name:"harish",age:20};
+  let user2=user;
+  console.log(user);
+  console.log(user2);
+  user.age=29;
+  console.log(user);
+  console.log(user2);
+
+
+  //array
+  let arr=[10,20,30];
+  let arr2=arr;
+  console.log(arr);
+  console.log(arr2);
+  arr.push(60);
+  console.log(arr);
+  console.log(arr2);

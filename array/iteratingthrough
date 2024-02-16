@@ -1,0 +1,10 @@
+//using for-in-loop
+const user={
+    name:"harish",
+    age:20,
+    job:"programmer"
+};
+console.log(user);
+for(let key in user){
+    console.log('${key} : ${user[key]}');
+}

@@ -1,0 +1,16 @@
+const user={
+    name:"harish",
+    age:20,
+    job:'developer'
+};
+console.log(user);
+//dot notation
+console.log(user.name);
+user.name="harish";
+
+
+//bracket notation
+console.log(user["age"]);
+user["age"]=25;
+console.log(user["age"]);
+console.log(user);

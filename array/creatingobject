@@ -1,0 +1,41 @@
+//using object literals
+/*const person={
+    name:"harish",
+    age:20,
+    job:"developer"
+};
+console.log(person);*/
+
+//using the object constructor
+/*const person=new Object();
+person.name="harish";
+person.age=20;
+person.job="developer";
+console.log(person);*/
+
+//using the object.create() methord
+
+/*const personProto={
+    sayHello:function(){
+        console.log('Hello,my name is harish');
+    }
+}
+
+const person=Object.create(personProto)
+person.name="harish";
+person.age=20;
+person.job="developer";
+console.log(person);
+console.log(person.sayHello());*/
+
+//using class
+class Person
+{
+    constructor(name,age,job){
+        this.name=name;
+        this.age=age;
+        this.job=job;
+    }
+}
+const person=new Person("harish",20,"developer");
+console.log(person);

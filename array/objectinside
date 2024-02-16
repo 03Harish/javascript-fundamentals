@@ -1,0 +1,12 @@
+const users=[
+    {name:'jam',age:34,city:'chennai'},
+    {name:'sam',age:30,city:'selam'},
+    {name:'tim',age:25,city:'kovai'}
+];console.log(users);
+for(const user of users)
+{
+
+    console.log(user.name);
+}
+const oldusers=users.filter(user=>user.age>=30)
+console.log(oldusers);
