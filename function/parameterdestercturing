@@ -1,0 +1,15 @@
+function hlo({name,age})
+{
+    console.log(`hellow ${name}`);
+    console.log(`age is ${age}`);
+}
+const person={name:"tom",age:20};
+hlo(person);
+
+
+const persons={name:'tom',age:20,city:'chennai'};
+function sayhello({name,age,...rest}){
+    console.log(`hello, ${name} you are ${age} years old`);
+    console.log(rest);
+}
+sayhello(person);

@@ -1,0 +1,12 @@
+if(true){
+var blackscopevariable='variable with black scope';
+console.log(blackscopevariable);
+}
+console.log(blackscopevariable);
+
+//function scope
+function myFunction(){
+    functionScopeVariable='i am variable with function scope';
+    console.log(functionScopeVariable);
+}
+myFunction();

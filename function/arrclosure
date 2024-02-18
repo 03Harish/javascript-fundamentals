@@ -1,0 +1,12 @@
+ 
+let creatercount=()=>{
+    let count=0;
+    return()=>{
+        count++;
+        return count;
+    }
+};
+let counter=creatercount();
+console.log(counter);
+console.log(counter());
+console.log(counter());

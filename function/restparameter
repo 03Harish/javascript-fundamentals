@@ -1,0 +1,14 @@
+//diff bw rest parameter fn and spread poerators
+
+//rest parameter function
+function myfunction(first,second,...rest){
+    console.log(first);
+    console.log(second);
+    console.log(rest);
+}
+myfunction(10,20,30,40,50,60);
+
+//spread operators
+let myarray=[1,2,3];
+let newarray=[...myarray,4,5];
+console.log(newarray);

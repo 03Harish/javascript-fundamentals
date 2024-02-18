@@ -1,0 +1,3 @@
+let words=['apple','orange','function','ant'];
+let filteredwords=words.filter(word=>word.length>5);
+console.log(filteredwords);
