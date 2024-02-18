@@ -1,0 +1,22 @@
+//high order fn
+
+function mycallback(){
+    console.log("this is a callback function");
+}
+function test(fun){
+    fun();
+}
+test(mycallback);
+
+
+//setTimedout function
+
+setTimeout(function(){
+    console.log('hello world');
+},3000);
+
+setIntervl(function(){
+    console.log('youtube');
+},3000); 
+
+
